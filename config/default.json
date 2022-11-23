@@ -1,0 +1,6 @@
+{
+    "serverPort":5000,
+    "dbUrl":"mongodb+srv://Artem:DlB9RL6Ee4ZFn2FJ@courses.c64o8.mongodb.net/Courses?retryWrites=true&w=majority",
+    "secretKey":"frizCourses",
+    "staticPath":"C:\\Users\\ADMIN\\Desktop\\Дипломка\\FrizCourses\\server\\static"
+}
