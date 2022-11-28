@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "type": "module",
+  
   "dependencies": {
     "bcrypt": "^5.0.1",
     "body-parser": "^1.19.1",
@@ -19,6 +20,8 @@
     "nodemon": "^2.0.15"
   },
   "scripts": {
+    "predeploy" : "npm run build",
+    "deploy" : "gh-pages -d build",
     "start": "node index.js",
     "dev": "nodemon index.js"
   },
